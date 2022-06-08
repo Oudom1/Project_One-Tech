@@ -1,0 +1,10 @@
+.sidebarProduct {
+    position: absolute;
+    width: 290px;
+    background-color: aqua;
+}
+.containerProduct {
+    width: 100%;
+    background-color: bisque;
+    margin-left: 300px;
+}
