@@ -37,12 +37,12 @@
                                                                                                 <div style="padding-left: 3.7vw">
                                                                                                     <input style="width: 30vw; height: 5vh; padding-left: 1vw;margin-bottom: 2vh;" type="text" class="name-product-category" placeholder="Name">  
                                                                                                 </div>
-                                                                                                <div style="padding-left: 3.7vw">
+                                                                                                <!-- <div style="padding-left: 3.7vw">
                                                                                                      <input style="width: 30vw; height: 5vh; padding-left: 1vw;margin-bottom: 2vh;" type="text" class="description-product-category" placeholder="Description"> 
                                                                                                 </div>
                                                                                                <div style="padding-left: 3.7vw">
                                                                                                    <input style="width: 30vw; height: 5vh; padding-left: 1vw;" type="text" class="text-product-category" placeholder="ImageURL">  
-                                                                                               </div>
+                                                                                               </div> -->
                                                                                                
                                                                                           </div>
                                                                                           <div class="modal-footer b">
@@ -86,7 +86,7 @@
       width: 100%;
       height: 100%;
       position: relative;
-      border: 1px solid black;
+      /* border: 1px solid black; */
       margin-top: 3vh;
 }
 .text-category-main{

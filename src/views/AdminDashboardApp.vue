@@ -48,20 +48,21 @@
           <li class="nav-item">
             <a class="nav-link" href="#">
               <span data-feather="shopping-cart"></span>
-             <font-awesome-icon style="margin-right: 2vh" icon="fa-th-large" />  Sub-category
+              <router-link to="/adminDashboard/subcategory"> <font-awesome-icon style="margin-right: 2vh" icon="fa-th-large" />  Sub-category </router-link>
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">
               <span data-feather="users"></span>
-               <font-awesome-icon style="margin-right: 2vh" icon="fa-tag" /> Product
+               
+               <router-link to="/adminDashboard/brandname"> <font-awesome-icon style="margin-right: 2vh" icon=" fa-bold" /> Brandname</router-link>
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">
               <span data-feather="bar-chart-2"></span>
              
-              <router-link to="/adminDashboard/brandname"> <font-awesome-icon style="margin-right: 2vh" icon=" fa-bold" /> Brandname</router-link>
+             <router-link to="/adminDashboard/productadmin"><font-awesome-icon style="margin-right: 2vh" icon="fa-tag" /> Product </router-link>
             </a>
           </li>
           <li class="nav-item">

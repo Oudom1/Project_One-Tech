@@ -11,6 +11,8 @@ import Product from '@/views/ProductApp.vue'
 import AdminDashboardApp from '@/views/AdminDashboardApp.vue'
 import BrandnameApp from '@/views/BrandnameApp.vue'
 import CategoryApp from '@/views/CategoryApp.vue'
+import SubCategoryApp from '@/views/SubCategoryApp.vue'
+import ProductAdminApp from '@/views/ProductAdminApp.vue'
 
 
 Vue.use(VueRouter)
@@ -73,7 +75,17 @@ const router = new VueRouter({
           path: '/adminDashboard/category',
           name: "CategoryApp",
           component: CategoryApp
-            }
+            },
+            {  
+              path: '/adminDashboard/subcategory',
+              name: "SubCategoryApp",
+              component: SubCategoryApp
+                },
+                {  
+                  path: '/adminDashboard/productadmin',
+                  name: "ProductAdminApp",
+                  component: ProductAdminApp
+                    }
       ]
     },
     // {
